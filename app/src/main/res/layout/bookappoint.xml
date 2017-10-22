@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available Time Slot"
+        android:gravity="center"
+        android:textSize="25sp"
+
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp" />
+
+    <Button
+        android:id="@+id/date_select_button"
+        android:text="Select Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </Button>
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp">
+
+        <Button
+            android:id="@+id/btnAppoint5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="app5"
+            android:text=" 01.00PM  "
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:layout_margin="10dp"
+            android:layout_column="1"
+            android:layout_row="1"/>
+
+        <Button
+            android:id="@+id/btnAppoint4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="app4"
+            android:text=" 12.30PM  "
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_column="0"
+            android:layout_row="1"/>
+
+        <Button
+            android:id="@+id/btnAppoint1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="app1"
+            android:text=" 11.00AM  "
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_column="0"
+            android:layout_row="0"/>
+
+        <Button
+            android:id="@+id/btnAppoint2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="app2"
+            android:text=" 11.30AM  "
+            android:textSize="20sp"
+            android:textColor="@android:color/background_light"
+            android:layout_margin="10dp"
+            android:layout_column="1"
+            android:layout_row="0"/>
+
+        <Button
+            android:id="@+id/btnAppoint6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="app6"
+            android:text=" 01.30PM  "
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/background_light"
+            android:layout_column="2"
+            android:layout_row="1"/>
+
+
+
+
+        <Button
+            android:id="@+id/btnAppoint8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 02.30PM  "
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:onClick="app8"
+            android:layout_margin="10dp"
+            android:layout_column="1"
+            android:layout_row="2"/>
+
+        <Button
+            android:id="@+id/btnAppoint9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 03.00PM  "
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:onClick="app9"
+            android:layout_margin="10dp"
+            android:layout_column="2"
+            android:layout_row="2"/>
+
+        <Button
+            android:id="@+id/btnAppoint7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 02.00PM  "
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:onClick="app7"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_column="0"
+            android:layout_row="2"/>
+
+        <Button
+            android:id="@+id/btnAppoint10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 03.30PM  "
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:onClick="app10"
+            android:textColor="@android:color/background_light"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="10dp"
+            android:layout_column="0"
+            android:layout_row="3"/>
+
+        <Button
+            android:id="@+id/btnAppoint12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 04.30PM  "
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:onClick="app12"
+            android:layout_margin="10dp"
+            android:layout_column="2"
+            android:layout_row="3"/>
+
+        <Button
+            android:id="@+id/btnAppoint11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 04.00PM  "
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:onClick="app11"
+            android:layout_margin="10dp"
+            android:layout_column="1"
+            android:layout_row="3"/>
+
+        <Button
+            android:id="@+id/btnAppoint3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_marginEnd="15dp"
+            android:layout_margin="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_row="0"
+            android:background="@color/colorPrimary"
+            android:onClick="app3"
+            android:text=" 12.00PM  "
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+    </GridLayout>
+
+
+
+</RelativeLayout>
